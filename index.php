@@ -154,6 +154,19 @@ $users = [
 }
 
 
+for ($i=9; $i > 0; $i--) { 
+	echo $i . "\n";
+	if ($i == 7) {
+		for ($i=7; $i > 0 ; $i--) { 
+			echo $i;
+		}
+	} else if ($i == 3) {
+		for ($i=3; $i > 0 ; $i--) { 
+			echo $i;
+		}
+	}
+}
+
 
 array_shift($argv); //ismetamas nulinis elementas
 $funcName = array_shift($argv); 
